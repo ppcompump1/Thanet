@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
 .container {
     max-width: 960px;
     width: 100%;
@@ -61,3 +65,16 @@ ul.menu li a:hover {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.content {
+   background-color: #c7c7c7;
+}
+
+.content-heading h1 {
+    font-size: 45px;
+}
+
+.content-heading p {
+    float: right;
+    font-size: 30px;
+} 
